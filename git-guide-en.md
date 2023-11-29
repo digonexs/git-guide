@@ -188,4 +188,79 @@ The semantic commit has the following structural elements (types), which inform 
 
 - `style` - Commits of type style indicate that there have been changes related to **code formatting**, semicolons, trailing spaces, lint... (Does not include code changes).
 
-- `refactor` - Commits of type refactor refer to changes due to **refactorings that do not change functionality**, such as a change in the format of a certain part of the screen, but that maintained the same functionality, or performance improvements due
+- `refactor` - Commits of type refactor refer to changes due to **refactorings that do not change functionality**, such as a change in the format of a certain part of the screen, but that maintained the same functionality, or performance improvements due.
+  
+- `chore` - Commits of type chore indicate **task updates** for build, admin settings, packages... for example, adding a package to gitignore. (Does not include code changes)
+
+- `ci` - Commits of type ci indicate changes related to **continuous integration**.
+
+- `raw` - Commits of type raw indicate changes related to configuration files, data, features, parameters.
+
+## Recommendations 🎉
+
+- Add a type consistent with the content title.
+- We recommend that the first line should have a maximum of 4 words.
+- For detailed descriptions, use the commit description.
+- Use an emoji at the beginning of the commit message representing the commit.
+
+## Commit Add-ons 💻
+
+- **Footer:** information about the reviewer and card number on Trello or Jira. Example: Reviewed-by: Elisandro Mello Refs #133
+- **Body:** more precise descriptions of what is contained in the commit, presenting impacts and the reasons for the code changes, as well as essential instructions for future interventions. Example: see the issue for details on typos fixed.
+- **Descriptions:** a succinct description of the change. Example: correct minor typos in code
+
+## Emoji Patterns 💈
+
+| Commit Type           | Emoji               | Keyword        |
+|-----------------------|---------------------|----------------|
+| Accessibility        | ♿ `:wheelchair:`    |                |
+| Adding a test         | ✅ `:white_check_mark:` | `test`       |
+| Adding a dependency   | ➕ `:heavy_plus_sign:` | `build`       |
+| Code review changes   | 👌 `:ok_hand:`       | `style`        |
+| Animations and transitions | 💫 `:dizzy:`    |                |
+| Bugfix                | 🐛 `:bug:`           | `fix`          |
+| Comments              | 💡 `:bulb:`          | `docs`         |
+| Initial commit        | 🎉 `:tada:`          | `init`         |
+| Configuration         | 🔧 `:wrench:`        | `chore`        |
+| Deploy                | 🚀 `:rocket:`        |                |
+| Documentation         | 📚 `:books:`         | `docs`         |
+| In progress           | 🚧 `:construction:`  |                |
+| Interface styling     | 💄 `:lipstick:`      | `feat`         |
+| Infrastructure        | 🧱 `:bricks:`        | `ci`           |
+| Ideas/tasks list      | 🔜 `:soon:`          |                |
+| Move/Rename           | 🚚 `:truck:`         | `chore`        |
+| New feature           | ✨ `:sparkles:`      | `feat`         |
+| Package.json in JS    | 📦 `:package:`       | `build`        |
+| Performance           | ⚡ `:zap:`           | `perf`         |
+| Refactoring           | ♻️ `:recycle:`       | `refactor`     |
+| Remove a file         | 🔥 `:fire:`          |                |
+| Remove a dependency   | ➖ `:heavy_minus_sign:` | `build`      |
+| Responsiveness        | 📱 `:iphone:`        |                |
+| Revert changes        | 💥 `:boom:`          | `fix`          |
+| Security             | 🔒️ `:lock:`          |                |
+| SEO                   | 🔍️ `:mag:`           |                |
+| Version tag          | 🔖 `:bookmark:`       |                |
+| Approval test        | ✔️ `:heavy_check_mark:` | `test`        |
+| Tests                | 🧪 `:test_tube:`       | `test`         |
+| Text                 | 📝 `:pencil:`          |                |
+| Typing               | 🏷️ `:label:`           |                |
+| Error handling       | 🥅 `:goal_net:`        |                |
+| Data                 | 🗃️ `:card_file_box:`  | `raw`          |
+
+## 💻 Examples
+
+| Git Command                                  | GitHub Result                      |
+|----------------------------------------------|------------------------------------|
+| `git commit -m ":tada: Initial commit"`      | 🎉 Initial commit                 |
+| `git commit -m ":books: docs: Update README"`| 📚 docs: Update README            |
+| `git commit -m ":bug: fix: Infinite loop on line 50"` | 🐛 fix: Infinite loop on line 50 |
+| `git commit -m ":sparkles: feat: Login page"` | ✨ feat: Login page                |
+| `git commit -m ":bricks: ci: Modify Dockerfile"` | 🧱 ci: Modify Dockerfile         |
+| `git commit -m ":recycle: refactor: Convert to arrow functions"` | ♻️ refactor: Convert to arrow functions |
+| `git commit -m ":zap: perf: Improve response time"` | ⚡ perf: Improve response time |
+| `git commit -m ":boom: fix: Revert inefficient changes"` | 💥 fix: Revert inefficient changes |
+| `git commit -m ":lipstick: feat: Styling CSS for form"` | 💄 feat: Styling CSS for form     |
+| `git commit -m ":test_tube: test: Create new test"` | 🧪 test: Create new test          |
+| `git commit -m ":bulb: docs: Comments on LoremIpsum( ) function"` | 💡 docs: Comments on LoremIpsum( ) function |
+| `git commit -m ":bulb: raw: RAW Data for year aaaa"` | 🗃️ raw: RAW Data for year aaaa   |
+```
