@@ -1,3 +1,4 @@
+**[PT-BR]**
 ## **O que é e para que serve o Git e GitHub?**
 
 **Git** é um sistema de controle de versão, o que significa que ele gerencia as alterações em projetos de software ao longo do tempo. Ele permite que várias pessoas trabalhem em um projeto simultaneamente, rastreia as mudanças feitas e facilita a colaboração.
