@@ -22,7 +22,7 @@ Resumindo, Git é a tecnologia subjacente que gerencia as versões de um projeto
     ---
     
 
-## Como c**onfigurar o Git.**
+## **Como configurar o Git.**
 
 1. **Abra o Terminal:**
     - Isso é onde você irá interagir com o Git
@@ -161,7 +161,7 @@ Isso deverá exibir suas configurações globais.
 
 ---
 
-# Padrões de commits 📜
+# **Padrões de commits.**
 
 De acordo com a documentação do **[Conventional Commits](https://www.conventionalcommits.org/pt-br)**, commits semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
 
@@ -170,7 +170,7 @@ Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada qu
 Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
 ---
-## Tipo e descrição 🦄
+## Tipo e descrição:
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
@@ -198,7 +198,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ---
   
-## Recomendações 🎉
+## Recomendações:
 
 - Adicione um tipo consistente com o título do conteúdo.
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras.
@@ -208,7 +208,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ---
 
-## Complementos de commits 💻
+## Complementos de commits:
 
 - **Rodapé:** informação sobre o revisor e número do card no Trello ou Jira. Exemplo: Reviewed-by: Elisandro Mello Refs #133
 - **Corpo:** descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no código, como também instruções essenciais para intervenções futuras. Exemplo: see the issue for details on typos fixed.
@@ -216,7 +216,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ---
 
-## Padrões de emojis 💈
+## Padrões de emojis:
 
 <table>
   <thead>
@@ -397,7 +397,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ---
 
-## 💻 Exemplos
+## Exemplos:
 
 <table>
   <thead>
