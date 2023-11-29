@@ -160,7 +160,7 @@ This should display your global configurations.
 
 ---
 
-# Commit Patterns 📜
+# Commit Patterns.
 
 According to the **[Conventional Commits](https://www.conventionalcommits.org/)** documentation, semantic commits are a simple convention to be used in commit messages. This convention defines a set of rules to create an explicit commit history, making it easy to create automated tools.
 
@@ -170,7 +170,7 @@ This identification is done through a word and an emoji that identifies if that 
 
 ---
 
-## Type and Description 🦄
+## Type and Description:
 
 The semantic commit has the following structural elements (types), which inform the intention of your commit to the code user.
 
@@ -196,20 +196,20 @@ The semantic commit has the following structural elements (types), which inform 
 
 - `raw` - Commits of type raw indicate changes related to configuration files, data, features, parameters.
 
-## Recommendations 🎉
+## Recommendations:
 
 - Add a type consistent with the content title.
 - We recommend that the first line should have a maximum of 4 words.
 - For detailed descriptions, use the commit description.
 - Use an emoji at the beginning of the commit message representing the commit.
 
-## Commit Add-ons 💻
+## Commit Add-ons:
 
 - **Footer:** information about the reviewer and card number on Trello or Jira. Example: Reviewed-by: Elisandro Mello Refs #133
 - **Body:** more precise descriptions of what is contained in the commit, presenting impacts and the reasons for the code changes, as well as essential instructions for future interventions. Example: see the issue for details on typos fixed.
 - **Descriptions:** a succinct description of the change. Example: correct minor typos in code
 
-## Emoji Patterns 💈
+## Emoji Patterns:
 
 | Commit Type           | Emoji               | Keyword        |
 |-----------------------|---------------------|----------------|
@@ -247,7 +247,7 @@ The semantic commit has the following structural elements (types), which inform 
 | Error handling       | 🥅 `:goal_net:`        |                |
 | Data                 | 🗃️ `:card_file_box:`  | `raw`          |
 
-## 💻 Examples
+## Examples:
 
 | Git Command                                  | GitHub Result                      |
 |----------------------------------------------|------------------------------------|
